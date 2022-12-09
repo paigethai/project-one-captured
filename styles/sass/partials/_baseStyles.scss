@@ -1,0 +1,17 @@
+@use "./variable" as *;
+
+
+.wrapper {
+    max-width: 1260px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+button {
+    color: $primary;
+    background-color: $quaternary;
+    padding: 10px 20px;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
