@@ -8,10 +8,22 @@
 }
 
 button {
-    color: $primary;
     background-color: $quaternary;
+    margin: 10px 20px;
     padding: 10px 20px;
-    font-size: 1rem;
-    letter-spacing: 0.1rem;
-    text-align: center;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+        background-color: $quaternary;
+        color: $primary;
+    }
+
+    &:focus {
+        background-color: $quaternary;
+        color: $primary;
+    }
 }
+
+

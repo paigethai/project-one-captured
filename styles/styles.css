@@ -294,6 +294,11 @@ button {
   letter-spacing: 0.1rem;
 }
 
+nav a {
+  color: #2C2C2C;
+  text-decoration: none;
+}
+
 footer p {
   color: #FAFAFA;
   text-align: center;
@@ -306,10 +311,19 @@ footer p {
 }
 
 button {
-  color: #2C2C2C;
   background-color: #4CEEA7;
+  margin: 10px 20px;
   padding: 10px 20px;
-  font-size: 1rem;
-  letter-spacing: 0.1rem;
-  text-align: center;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+button:hover {
+  background-color: #4CEEA7;
+  color: #2C2C2C;
+}
+button:focus {
+  background-color: #4CEEA7;
+  color: #2C2C2C;
 }

@@ -76,6 +76,11 @@ button {
     letter-spacing: 0.1rem;
 }
 
+nav a {
+    color: $primary;
+    text-decoration: none;
+}
+
 footer p {
     color: $secondary;
     text-align: center;
