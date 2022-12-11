@@ -327,3 +327,7 @@ button:focus {
   background-color: #4CEEA7;
   color: #2C2C2C;
 }
+
+.home-header {
+  background-image: url(/project1-captured/captured-final-assets/header-image.jpg);
+}
