@@ -1,0 +1,56 @@
+@use "variable" as *;
+
+.about {
+    background-color: $tertiary;
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+h2 {
+    padding-top: 60px;
+}
+
+p { 
+    padding-bottom: 20px;
+}
+
+.about-text-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about-text-container button {
+    align-items: center;
+//     display: flex;
+//     justify-content: center;
+}
+
+.blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+
+    .blog-text-container {
+        width: 50%;
+    }
+
+    .blog-image-container {
+        width: 50%;
+        img {
+            box-shadow: 32px 32px 0px -13px $quinary;
+        }
+    }
+}
+
+.top-blog {
+    display: flex;
+    width: 100%;
+}
+
+.bottom-blog {
+    display: flex;
+    flex-direction: row-reverse;
+}
