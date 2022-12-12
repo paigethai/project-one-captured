@@ -375,3 +375,13 @@ button:focus {
           text-decoration-color: #4CEEA7;
   text-decoration-thickness: 0.3rem;
 }
+
+footer {
+  width: 100%;
+  background-color: #2C2C2C;
+}
+
+footer p {
+  margin: 0;
+  padding: 10px;
+}

@@ -1,0 +1,11 @@
+@use "variable" as *;
+
+footer {
+    width: 100%;
+    background-color: $primary;
+    }
+
+footer p {
+    margin: 0;
+    padding: 10px;
+}
