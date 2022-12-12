@@ -569,6 +569,9 @@ p {
      object-fit: cover;
 }
 
+.monthly-profile {
+  background-color: #EFFDF3;
+}
 .monthly-profile .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -593,4 +596,23 @@ p {
 }
 .monthly-profile .wrapper .profile-text-container button {
   margin: 40px auto;
+}
+
+.gallery .gallery-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.gallery .gallery-container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0;
+  margin: 80px auto;
+}
+.gallery .gallery-container ul li {
+  margin: 0 20px;
 }

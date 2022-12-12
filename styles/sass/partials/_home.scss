@@ -169,6 +169,7 @@ p {
 
 // "this month profile" --> monthly-profile section
 .monthly-profile {
+    background-color: $tertiary;
     .wrapper {
         display: flex;
         justify-content: space-between;
@@ -196,5 +197,18 @@ p {
 
 // gallery section
 .gallery {
-    
+    .gallery-container {
+        display: flex;
+        justify-content: center;
+
+        ul {
+            display: flex;
+            padding-left: 0;
+            margin: 80px auto;
+
+            li {
+                margin: 0 20px;
+            }
+        }
+    }
 }
