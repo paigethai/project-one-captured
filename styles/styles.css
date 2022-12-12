@@ -398,7 +398,7 @@ footer p {
           justify-content: space-between;
 }
 
-h2 {
+h3 {
   padding-top: 60px;
 }
 
@@ -466,6 +466,9 @@ p {
   -webkit-box-shadow: 32px 32px 0px -13px #FDFA69;
           box-shadow: 32px 32px 0px -13px #FDFA69;
 }
+.top-blog .first-blog-text h4 {
+  text-align: left;
+}
 
 .bottom-blog {
   display: -webkit-box;
@@ -499,6 +502,9 @@ p {
       align-self: center;
   padding: 0% 5% 2% 5%;
 }
+.bottom-blog .second-blog-text h4 {
+  text-align: right;
+}
 .bottom-blog .second-blog-text button {
   margin-top: 8%;
 }
@@ -531,7 +537,7 @@ p {
   width: calc(50% - 17px);
   margin: 15px 15px 15px 0px;
 }
-.third-section .wrapper h3 {
+.third-section .wrapper h4 {
   text-align: left;
   padding-left: 20px;
 }
@@ -582,6 +588,6 @@ p {
   -ms-flex-preferred-size: 65%;
       flex-basis: 65%;
 }
-.monthly-profile .wrapper .profile-text-container h2 {
+.monthly-profile .wrapper .profile-text-container h3 {
   text-align: left;
 }

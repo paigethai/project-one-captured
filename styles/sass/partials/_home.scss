@@ -11,7 +11,7 @@
     }
 }
 
-h2 {
+h3 {
     padding-top: 60px;
 }
 
@@ -68,6 +68,12 @@ p {
             box-shadow: 32px 32px 0px -13px $quinary;
         }
     }
+
+    .first-blog-text {
+        h4{
+            text-align: left;
+        }
+    }
 }
 
 .bottom-blog {
@@ -94,6 +100,10 @@ p {
         text-align: right;
         align-self: center;
         padding: 0% 5% 2% 5%;
+
+        h4 {
+                text-align: right;
+            }
 
         button {
             margin-top: 8%;
@@ -122,7 +132,7 @@ p {
             margin: 15px 15px 15px 0px;
         }
 
-        h3 {
+        h4 {
             text-align: left;
             padding-left: 20px;
         }
@@ -173,7 +183,7 @@ p {
         .profile-text-container {
             flex-basis: 65%;
 
-            h2 {
+            h3 {
                 text-align: left;
             }
         }
