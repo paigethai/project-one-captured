@@ -245,6 +245,7 @@ button {
   font-weight: bold;
   font-style: italic;
   text-transform: uppercase;
+  text-align: center;
 }
 
 h1 {
@@ -335,22 +336,16 @@ button:focus {
   background-position: top center;
   position: relative;
 }
-.home-header .wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-.home-header img {
+.home-header h1 {
   position: absolute;
-  right: 0;
-  width: 40%;
-  max-width: 40%;
+  left: 35%;
+  bottom: 70px;
 }
 
 .nav-bar {
+  height: 120px;
+  width: 100%;
+  margin: 10px 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -362,9 +357,9 @@ button:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 40%;
 }
 .nav-bar ul li {

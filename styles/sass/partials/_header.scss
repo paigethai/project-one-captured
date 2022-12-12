@@ -7,17 +7,12 @@
     background-position: top center;
     position: relative;
 
-    .wrapper {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    img {
-        position: absolute;
-        right: 0;
-        width: 40%;
-        max-width: 40%;
-    }
+    h1 {
+            position: absolute;
+            left: 35%;
+            bottom: 70px;
+        }
 }
+
 
 
