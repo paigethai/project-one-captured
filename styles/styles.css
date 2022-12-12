@@ -591,3 +591,6 @@ p {
 .monthly-profile .wrapper .profile-text-container h3 {
   text-align: left;
 }
+.monthly-profile .wrapper .profile-text-container button {
+  margin: 40px auto;
+}
