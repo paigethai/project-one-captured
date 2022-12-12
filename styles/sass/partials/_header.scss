@@ -14,5 +14,18 @@
         }
 }
 
+.blog-header {
+    background-image: url(../assets/blog-header.jpg);
+    height: max(50vh, 450px);
+    background-size: cover;
+    background-position: top center;
+}
+
+.contact-header {
+    background-image: url(../assets/contact-header.jpg);
+    height: max(50vh, 450px);
+    background-size: cover;
+    background-position: top center;
+}
 
 
