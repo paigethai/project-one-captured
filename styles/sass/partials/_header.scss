@@ -2,5 +2,22 @@
 
 .home-header {
     background-image: url(../assets/header-image.jpg);
+    background-size: cover;
+    height: 70vh;
+    background-position: top center;
+    position: relative;
 
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    img {
+        position: absolute;
+        right: 0;
+        width: 40%;
+        max-width: 40%;
+    }
 }
+
+

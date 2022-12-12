@@ -330,4 +330,53 @@ button:focus {
 
 .home-header {
   background-image: url(../assets/header-image.jpg);
+  background-size: cover;
+  height: 70vh;
+  background-position: top center;
+  position: relative;
+}
+.home-header .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.home-header img {
+  position: absolute;
+  right: 0;
+  width: 40%;
+  max-width: 40%;
+}
+
+.nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.nav-bar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 40%;
+}
+.nav-bar ul li {
+  padding: 0 0 0 30px;
+}
+.nav-bar ul a {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.nav-bar ul a:hover, .nav-bar ul a:focus {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #4CEEA7;
+          text-decoration-color: #4CEEA7;
+  text-decoration-thickness: 0.3rem;
 }

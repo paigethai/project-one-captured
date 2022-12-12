@@ -1,0 +1,26 @@
+@use "variable" as *;
+
+.nav-bar {
+    display: flex;
+    justify-content: flex-end;
+
+    ul {
+        display: flex;
+        justify-content: flex-end;
+        width: 40%;
+
+        li {
+            padding: 0 0 0 30px;
+        }
+
+            a {
+                transition: 0.3s;
+                &:hover,
+                &:focus {
+                    text-decoration: underline;
+                    text-decoration-color: $quaternary;
+                    text-decoration-thickness: 0.3rem;
+                }
+            }
+    }
+}
