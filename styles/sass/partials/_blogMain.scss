@@ -1,1 +1,17 @@
 @use "variable" as *;
+
+.blog-header {
+    h2 {
+        transform: translate(0px, -70px);
+    }
+    
+    .blog-main {
+        display: flex;
+        justify-content: space-between;
+
+        article {
+            width: 65%;
+            transform: translate(0px, 80px);
+        }
+    }
+}

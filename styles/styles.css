@@ -630,3 +630,21 @@ p {
 .gallery .gallery-container ul li {
   margin: 0 20px;
 }
+
+.blog-header h2 {
+  -webkit-transform: translate(0px, -70px);
+          transform: translate(0px, -70px);
+}
+.blog-header .blog-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.blog-header .blog-main article {
+  width: 65%;
+  -webkit-transform: translate(0px, 80px);
+          transform: translate(0px, 80px);
+}
