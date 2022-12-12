@@ -504,6 +504,7 @@ p {
 }
 
 .third-section {
+  background-color: #EFFDF3;
   margin: 80px auto;
 }
 .third-section .wrapper {
@@ -512,4 +513,45 @@ p {
   display: flex;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
+}
+.third-section .wrapper ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.third-section .wrapper li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+  width: calc(50% - 17px);
+  margin: 15px 15px 15px 0px;
+}
+.third-section .wrapper h3 {
+  text-align: left;
+  padding-left: 20px;
+}
+.third-section .wrapper p {
+  color: #2C2C2C;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.5rem;
+  line-height: 3.2rem;
+  text-transform: none;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.icons-container {
+  background-color: #4CEEA7;
+  height: 45px;
+  width: 85px;
+  border-radius: 50%;
+  padding-top: 5px;
+  margin-top: 40px;
 }
