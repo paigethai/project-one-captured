@@ -421,6 +421,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 150px;
 }
 
 .blog-posts {
@@ -429,16 +430,19 @@ p {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin: 50px 0px 0 0;
 }
 .blog-posts .blog-text-container {
   width: 50%;
+  -ms-flex-item-align: center;
+      align-self: center;
+  padding: 0% 5% 2% 5%;
+}
+.blog-posts .blog-text-container button {
+  margin-top: 8%;
 }
 .blog-posts .blog-image-container {
   width: 50%;
-}
-.blog-posts .blog-image-container img {
-  -webkit-box-shadow: 32px 32px 0px -13px #FDFA69;
-          box-shadow: 32px 32px 0px -13px #FDFA69;
 }
 
 .top-blog {
@@ -446,6 +450,21 @@ p {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+  margin: 0 auto;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+.top-blog .first-blog-image {
+  width: 50%;
+  position: relative;
+}
+.top-blog .first-blog-image img {
+  max-width: 85%;
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+  -webkit-box-shadow: 32px 32px 0px -13px #FDFA69;
+          box-shadow: 32px 32px 0px -13px #FDFA69;
 }
 
 .bottom-blog {
@@ -456,4 +475,41 @@ p {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
+  margin: 0 auto;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+.bottom-blog .second-blog-image {
+  width: 50%;
+  position: relative;
+}
+.bottom-blog .second-blog-image img {
+  max-width: 85%;
+  position: absolute;
+  top: 4opx;
+  right: 0;
+  -webkit-box-shadow: -29px 29px 0px -10px #FDFA69;
+          box-shadow: -29px 29px 0px -10px #FDFA69;
+  z-index: 1000;
+}
+.bottom-blog .second-blog-text {
+  width: 50%;
+  text-align: right;
+  -ms-flex-item-align: center;
+      align-self: center;
+  padding: 0% 5% 2% 5%;
+}
+.bottom-blog .second-blog-text button {
+  margin-top: 8%;
+}
+
+.third-section {
+  margin: 80px auto;
+}
+.third-section .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
 }

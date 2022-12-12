@@ -1,5 +1,7 @@
 @use "variable" as *;
 
+// about section
+
 .about {
     background-color: $tertiary;
 
@@ -25,32 +27,86 @@ p {
 
 .about-text-container button {
     align-items: center;
-//     display: flex;
-//     justify-content: center;
+    margin-bottom: 150px;
 }
 
+// blog posts section
 .blog-posts {
     display: flex;
     flex-wrap: wrap;
+    margin: 50px 0px 0 0;
 
     .blog-text-container {
         width: 50%;
+        align-self: center;
+        padding: 0% 5% 2% 5%;
+
+        button {
+            margin-top: 8%;
+        }
     }
 
     .blog-image-container {
         width: 50%;
-        img {
-            box-shadow: 32px 32px 0px -13px $quinary;
-        }
     }
 }
 
 .top-blog {
     display: flex;
     width: 100%;
+    margin: 0 auto;
+    flex-basis: 100%;
+
+    .first-blog-image {
+        width: 50%;
+        position: relative;
+        img {
+            max-width: 85%;
+            position: absolute;
+            left: 0;
+            bottom: 20px;
+            box-shadow: 32px 32px 0px -13px $quinary;
+        }
+    }
 }
 
 .bottom-blog {
     display: flex;
     flex-direction: row-reverse;
+    margin: 0 auto;
+    flex-basis: 100%;
+
+    .second-blog-image {
+        width: 50%;
+        position: relative;
+        img {
+            max-width: 85%;
+            position: absolute;
+            top: 4opx;
+            right: 0;
+            box-shadow: -29px 29px 0px -10px $quinary;
+            z-index: 1000;
+        }
+    }
+
+    .second-blog-text {
+        width: 50%;
+        text-align: right;
+        align-self: center;
+        padding: 0% 5% 2% 5%;
+
+        button {
+            margin-top: 8%;
+        }
+    }
+}
+
+// third section with icons
+.third-section {
+    margin: 80px auto;
+
+    .wrapper {
+        display: flex;
+        flex-wrap: nowrap;
+    }
 }
