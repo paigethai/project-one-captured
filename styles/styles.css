@@ -329,5 +329,5 @@ button:focus {
 }
 
 .home-header {
-  background-image: url(/project1-captured/captured-final-assets/header-image.jpg);
+  background-image: url(../assets/header-image.jpg);
 }
