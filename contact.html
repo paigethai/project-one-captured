@@ -40,7 +40,7 @@
                 <!-- end of navigation bar -->
             </div> <!-- end of wrapper div -->
 
-            <h1>Get in Touch</h1>
+            <h2>Get in Touch</h2>
     </header>
     <!-- end of header section -->
 
@@ -87,20 +87,20 @@
                 <form action="#" method="#" class="fill-form" name="fill-form">
                 
                     <div class="username-email">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name">
+                        <label for="name"></label>
+                        <input type="text" id="name" name="name" required placeholder="Name">
                 
-                        <label for="email">Email address</label>
-                        <input type="text" id="email" name="email">
+                        <label for="email"></label>
+                        <input type="email" id="email" name="email" required placeholder="Email address">
                     </div> <!-- end of username-email div -->
                 
                     <div class="message">
-                        <label for="message">Message</label>
-                        <textarea name="message" id="message" cols="50" rows="10"></textarea>
+                        <label for="message"></label>
+                        <textarea name="message" id="message" cols="50" rows="10" required placeholder="Message"></textarea>
                     </div> <!-- end of comment div -->
                 
                     <div class="submit-button">
-                        <button type="submit">Submit</button>
+                        <button id="submit-button" type="submit" class="send-form">Submit</button>
                     </div> <!-- end of submit-button div -->
                 </form> <!-- end of comment form -->
             </div><!-- end of comment-form div -->

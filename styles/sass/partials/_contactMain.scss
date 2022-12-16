@@ -1,1 +1,108 @@
 @use "variable" as *;
+
+.contact-header {
+    h2 {
+        padding-left: 60px;
+        padding-bottom: 30px;
+    }
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+    }
+}
+
+
+.aside-contact {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0 20px 0;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+
+
+.contact-form {
+    padding: 60px 60px 0px 60px;
+    margin: 0px;
+
+    .username-email {
+        display: flex;
+        justify-content: space-between;
+
+        input {
+            background-color: $tertiary;
+        }
+
+        input[type="text"],
+        input[type="email"] {
+            height: 50px;
+            width: 50%;
+            border: none;
+            border-bottom: 2px solid $quaternary;
+            padding: 30px 25px;
+
+            &::placeholder {
+                font-family: $bodyFont;
+                font-size: 2rem;
+                line-height: 32px;
+                letter-spacing: 2px;
+            }
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        input[type="text"] {
+            margin-right: 10px;
+        }
+
+        input[type="email"] {
+            margin-left: 10px;
+        }
+    }
+}
+
+.message {
+    textarea {
+        background-color: $tertiary;
+        resize: none;
+        border: none;
+        width: 100%;
+        border: 2px solid $quaternary;
+        padding: 30px 25px;
+        margin-top: 50px;
+        font-family: $bodyFont;
+        font-size: 2rem;
+        line-height: 32px;
+        letter-spacing: 2px;
+
+        &::placeholder {
+            font-family: $bodyFont;
+            font-size: 2rem;
+            line-height: 32px;
+            letter-spacing: 2px;
+        }
+
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+button {
+    padding: 8px 0;
+    margin: 50px 0;
+    border: 2px solid $quaternary;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover,
+    &:focus {
+        background-color: $tertiary;
+    }
+}

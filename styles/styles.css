@@ -863,3 +863,155 @@ aside {
 .comment-form button:hover, .comment-form button:focus {
   background-color: #EFFDF3;
 }
+
+.contact-header h2 {
+  padding-left: 60px;
+  padding-bottom: 30px;
+}
+.contact-header .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+}
+
+.aside-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 60px 0 20px 0;
+  margin-top: 150px;
+  margin-left: 50px;
+}
+
+.contact-form {
+  padding: 60px 60px 0px 60px;
+  margin: 0px;
+}
+.contact-form .username-email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.contact-form .username-email input {
+  background-color: #EFFDF3;
+}
+.contact-form .username-email input[type=text],
+.contact-form .username-email input[type=email] {
+  height: 50px;
+  width: 50%;
+  border: none;
+  border-bottom: 2px solid #4CEEA7;
+  padding: 30px 25px;
+}
+.contact-form .username-email input[type=text]::-webkit-input-placeholder, .contact-form .username-email input[type=email]::-webkit-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  line-height: 32px;
+  letter-spacing: 2px;
+}
+.contact-form .username-email input[type=text]::-moz-placeholder, .contact-form .username-email input[type=email]::-moz-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  line-height: 32px;
+  letter-spacing: 2px;
+}
+.contact-form .username-email input[type=text]:-ms-input-placeholder, .contact-form .username-email input[type=email]:-ms-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  line-height: 32px;
+  letter-spacing: 2px;
+}
+.contact-form .username-email input[type=text]::-ms-input-placeholder, .contact-form .username-email input[type=email]::-ms-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  line-height: 32px;
+  letter-spacing: 2px;
+}
+.contact-form .username-email input[type=text]::placeholder,
+.contact-form .username-email input[type=email]::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  line-height: 32px;
+  letter-spacing: 2px;
+}
+.contact-form .username-email input[type=text]:focus,
+.contact-form .username-email input[type=email]:focus {
+  outline: none;
+}
+.contact-form .username-email input[type=text] {
+  margin-right: 10px;
+}
+.contact-form .username-email input[type=email] {
+  margin-left: 10px;
+}
+
+.message textarea {
+  background-color: #EFFDF3;
+  resize: none;
+  border: none;
+  width: 100%;
+  border: 2px solid #4CEEA7;
+  padding: 30px 25px;
+  margin-top: 50px;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  line-height: 32px;
+  letter-spacing: 2px;
+}
+.message textarea::-webkit-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  line-height: 32px;
+  letter-spacing: 2px;
+}
+.message textarea::-moz-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  line-height: 32px;
+  letter-spacing: 2px;
+}
+.message textarea:-ms-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  line-height: 32px;
+  letter-spacing: 2px;
+}
+.message textarea::-ms-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  line-height: 32px;
+  letter-spacing: 2px;
+}
+.message textarea::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  line-height: 32px;
+  letter-spacing: 2px;
+}
+.message textarea:focus {
+  outline: none;
+}
+
+button {
+  padding: 8px 0;
+  margin: 50px 0;
+  border: 2px solid #4CEEA7;
+  width: 100%;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+button:hover, button:focus {
+  background-color: #EFFDF3;
+}
