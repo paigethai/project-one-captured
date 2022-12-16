@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -631,11 +632,11 @@ p {
   margin: 0 20px;
 }
 
-.blog-header h2 {
-  -webkit-transform: translate(0px, -70px);
-          transform: translate(0px, -70px);
+main {
+  background-color: #EFFDF3;
 }
-.blog-header .blog-main {
+
+.blog-main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -643,8 +644,221 @@ p {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.blog-header .blog-main article {
-  width: 65%;
-  -webkit-transform: translate(0px, 80px);
-          transform: translate(0px, 80px);
+
+article {
+  width: 95%;
+  -webkit-transform: translate(0px, -80px);
+          transform: translate(0px, -80px);
+  margin-bottom: -80px;
+}
+article .blog-image-container {
+  margin-left: 10%;
+}
+article .blog-text-container {
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+article .blog-text-container h2 {
+  text-align: left;
+}
+
+.border {
+  border-left: 5px solid #FDFA69;
+  border-bottom: 5px solid #FDFA69;
+  padding-left: 5%;
+}
+
+.article-comment {
+  width: 60%;
+}
+
+aside {
+  width: 40%;
+  padding-top: 5%;
+}
+
+.aside-text-container {
+  background-color: #FAFAFA;
+  margin-right: 20%;
+  margin-left: 15%;
+  padding-top: 10%;
+  padding-right: 5%;
+  padding-bottom: 10%;
+}
+.aside-text-container h4 {
+  text-align: left;
+  padding-left: 2%;
+  margin-bottom: auto;
+}
+.aside-text-container p {
+  padding-top: 5%;
+  padding-left: 5%;
+}
+
+.aside-recent-posts-text-container ul,
+.aside-recent-posts-text-container li {
+  color: #2C2C2C;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 3.2rem;
+  text-transform: none;
+  text-align: left;
+}
+.aside-recent-posts-text-container li::before {
+  content: "• ";
+  color: #4CEEA7;
+}
+
+.comment-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
+}
+.comment-section h3 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.comment-section p {
+  padding-right: 25%;
+}
+.comment-section img {
+  padding-top: 27px;
+  padding-right: 45px;
+}
+.comment-section .comment-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.comment-section .comment-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 70px;
+}
+
+.comment-form {
+  padding: 60px 60px 0px 60px;
+  margin: 0px;
+}
+.comment-form .username-email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.comment-form .username-email input {
+  background-color: #EFFDF3;
+}
+.comment-form .username-email input[type=text], .comment-form .username-email input[type=email] {
+  height: 50px;
+  width: 50%;
+  border: none;
+  border-bottom: 2px solid #4CEEA7;
+  padding: 30px 25px;
+}
+.comment-form .username-email input[type=text]::-webkit-input-placeholder, .comment-form .username-email input[type=email]::-webkit-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  line-height: 32px;
+  letter-spacing: 2px;
+}
+.comment-form .username-email input[type=text]::-moz-placeholder, .comment-form .username-email input[type=email]::-moz-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  line-height: 32px;
+  letter-spacing: 2px;
+}
+.comment-form .username-email input[type=text]:-ms-input-placeholder, .comment-form .username-email input[type=email]:-ms-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  line-height: 32px;
+  letter-spacing: 2px;
+}
+.comment-form .username-email input[type=text]::-ms-input-placeholder, .comment-form .username-email input[type=email]::-ms-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  line-height: 32px;
+  letter-spacing: 2px;
+}
+.comment-form .username-email input[type=text]::placeholder, .comment-form .username-email input[type=email]::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  line-height: 32px;
+  letter-spacing: 2px;
+}
+.comment-form .username-email input[type=text]:focus, .comment-form .username-email input[type=email]:focus {
+  outline: none;
+}
+.comment-form .username-email input[type=text] {
+  margin-right: 10px;
+}
+.comment-form .username-email input[type=email] {
+  margin-left: 10px;
+}
+.comment-form .comment textarea {
+  background-color: #EFFDF3;
+  resize: none;
+  border: none;
+  width: 100%;
+  border: 2px solid #4CEEA7;
+  padding: 30px 25px;
+  margin-top: 50px;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  line-height: 32px;
+  letter-spacing: 2px;
+}
+.comment-form .comment textarea::-webkit-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  line-height: 32px;
+  letter-spacing: 2px;
+}
+.comment-form .comment textarea::-moz-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  line-height: 32px;
+  letter-spacing: 2px;
+}
+.comment-form .comment textarea:-ms-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  line-height: 32px;
+  letter-spacing: 2px;
+}
+.comment-form .comment textarea::-ms-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  line-height: 32px;
+  letter-spacing: 2px;
+}
+.comment-form .comment textarea::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  line-height: 32px;
+  letter-spacing: 2px;
+}
+.comment-form .comment textarea:focus {
+  outline: none;
+}
+.comment-form button {
+  padding: 8px 0;
+  margin: 50px 0;
+  border: 2px solid #4CEEA7;
+  width: 100%;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.comment-form button:hover, .comment-form button:focus {
+  background-color: #EFFDF3;
 }
